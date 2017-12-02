@@ -1,0 +1,24 @@
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+ext {
+    //project configuration
+    minSdkVersion = 19
+    targetSdkVersion = 27
+    compileSdkVersion = 27
+    buildToolsVersion = '27.0.1'
+
+    //kotlinLib
+    kotlinLibVersion = '1.1.60'
+
+    //android support libs
+    supportLibraryVersion = '27.0.0'
+    constraintLayoutVersion = '1.0.2'
+
+    //tests
+    junitVersion = '4.12'
+    espressoVersion = '2.2.2'
+}
